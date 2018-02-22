@@ -9,4 +9,5 @@
 * Shift+Alt+L - Locating Current File in Solution Explorer.
 * Ctrl+Alt+S - Rider settings.
 * Ctrl+Alt+Z - Revert Changes.
-
+* Ctrl+Alt+Right - Split Current Editor Tab Move Right.
+* Ctrl+Alt+Left - Move To Opposite Group
