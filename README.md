@@ -19,5 +19,7 @@
 * Ctrl+Up or Down 切換到上或下一個方法.
 * Alt+6 - Show All Todo.
 
+* 區域性註解
+
 # Code
 * // Todo 使用關鍵字Todo可以寫下未作的事情，並可按下Alt+6 - Show All Todo。
