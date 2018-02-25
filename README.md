@@ -16,8 +16,11 @@
 * 在方法內打完參數後，按下Ctrl + Enter 就會直接跳到尾端.
 * Shift + Enter 則跳下一行.
 * 在方法上面，按Ctrl+Alt+Up or Down 能夠切換使用此方法的地方，上為回去上一個、下為跳到下一個。
-* Ctrl+Up or Down 切換到上或下一個方法.
 * Alt+6 - Show All Todo.
+
+# Custom Shortcuts
+* Shift+Alt+Up or Down - Previous or Next Method.
+* Alt+Up or Down - Move Line Up or Down.
 
 * 區域性註解
 
