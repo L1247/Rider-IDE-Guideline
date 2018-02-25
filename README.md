@@ -17,12 +17,14 @@
 * Shift + Enter 則跳下一行.
 * 在方法上面，按Ctrl+Alt+Up or Down 能夠切換使用此方法的地方，上為回去上一個、下為跳到下一個。
 * Alt+6 - Show All Todo.
-
+* Ctrl+F12 - Show File Member.
+* Ctrl+/ | Crtl+Numpad/ - Comment with Line Comment
+* Ctrl+Shift+/ | Ctrl+Shift+Numpad/ - Comment with Block Comment
 # Custom Shortcuts
 * Shift+Alt+Up or Down - Previous or Next Method.
 * Alt+Up or Down - Move Line Up or Down.
 
-* 區域性註解
+# TODO
 
 # Code
 * // Todo 使用關鍵字Todo可以寫下未作的事情，並可按下Alt+6 - Show All Todo。
