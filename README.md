@@ -20,6 +20,8 @@
 * Ctrl+F12 - Show File Member.
 * Ctrl+/ | Crtl+Numpad/ - Comment with Line Comment
 * Ctrl+Shift+/ | Ctrl+Shift+Numpad/ - Comment with Block Comment
+* Alt+Home - Jump To Navigation Bar in Main menu.
+
 # Custom Shortcuts
 * Shift+Alt+Up or Down - Previous or Next Method.
 * Alt+Up or Down - Move Line Up or Down.
