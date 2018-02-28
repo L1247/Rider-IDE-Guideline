@@ -27,6 +27,8 @@
 * Alt+Up or Down - Move Line Up or Down.
 
 # TODO
+* 在相同關鍵字上下移動
+* 插入上一行
 
 # Code
 * // Todo 使用關鍵字Todo可以寫下未作的事情，並可按下Alt+6 - Show All Todo。
