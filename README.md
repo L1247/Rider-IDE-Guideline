@@ -11,7 +11,6 @@
 * Ctrl+Alt+Z - Revert Changes.
 * Ctrl+Alt+Right - Split Current Editor Tab Move Right.
 * Ctrl+Alt+Left - Move To Opposite Group.
-* Ctrl+Alt+J - Surround With.
 * Ctrl+Shift+Enter - 在IF區域大括號(右)外面按下會自動產生Else.
 * 在方法內打完參數後，按下Ctrl + Enter 就會直接跳到尾端.
 * Shift + Enter 則跳下一行.
@@ -32,6 +31,7 @@
 # TODO
 * 在相同關鍵字上下移動
 * 插入上一行
+* 把選擇的區段往左或右的括號內移動。
 
 # Code
 * // Todo 使用關鍵字Todo可以寫下未作的事情，並可按下Alt+6 - Show All Todo。
