@@ -22,6 +22,7 @@
 * Ctrl+Shift+/ | Ctrl+Shift+Numpad/ - Comment with Block Comment
 * Alt+Home - Jump To Navigation Bar in Main menu.
 * Shift+Shitft - Search EveryWhere.
+* Ctrl+Shift+j - Surround With. 可以把選取的括號之類的。
 
 # Custom Shortcuts
 * Shift+Alt+Up or Down - Previous or Next Method.
