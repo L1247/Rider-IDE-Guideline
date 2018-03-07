@@ -22,7 +22,8 @@
 * Ctrl+Shift+/ | Ctrl+Shift+Numpad/ - Comment with Block Comment
 * Alt+Home - Jump To Navigation Bar in Main menu.
 * Shift+Shitft - Search EveryWhere.
-* Ctrl+Shift+j - Surround With. 可以把選取的括號之類的。
+* Ctrl+Alt+j - Surround With. 可以把選取的括號之類的。
+* Ctrl+Shift+j - Join Line. 在該行的前面用可以把下一行的頭Cut到該行的最後面。
 
 # Custom Shortcuts
 * Shift+Alt+Up or Down - Previous or Next Method.
