@@ -21,6 +21,7 @@
 * Ctrl+/ | Crtl+Numpad/ - Comment with Line Comment
 * Ctrl+Shift+/ | Ctrl+Shift+Numpad/ - Comment with Block Comment
 * Alt+Home - Jump To Navigation Bar in Main menu.
+* Shift+Shitft - Search EveryWhere.
 
 # Custom Shortcuts
 * Shift+Alt+Up or Down - Previous or Next Method.
