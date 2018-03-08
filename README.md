@@ -4,6 +4,13 @@
 * Ctrl + E - Recent Files.
 * Ctrl+Shift+Alt+A - Inspect This.
   * 在函數上使用，可以顯示外部內部調用、Code Issues等等
+* Ctrl+/ - 單行註解。
+* Ctrl+Shift+/ - 選取的範圍註解。
+* Ctrl+Shift+Space - Smart Type. 智慧提示。
+* Alt+Insert - Generate Code. 產生一些範例程式碼
+* Crtl+W - Extend Selection. 每按一次，慢慢往外選擇。
+* Ctrl+Left | Ctrl+Right - Move Creat to Previous Word | Move Creat to Next Word. 切換所在輸入位置至前後的字。
+* Alt+Left | Alt+Right - Select Previous Tab | Select Next Tab. 切換所在位置的上下分頁。
 * Ctrl+Shift+A - Find Action.
 * Ctrl+Shift+R - Refactor This.
 * Shift+Alt+L - Locating Current File in Solution Explorer.
