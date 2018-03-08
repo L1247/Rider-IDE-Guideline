@@ -11,6 +11,7 @@
 * Crtl+W - Extend Selection. 每按一次，慢慢往外選擇。
 * Ctrl+Left | Ctrl+Right - Move Creat to Previous Word | Move Creat to Next Word. 切換所在輸入位置至前後的字。
 * Alt+Left | Alt+Right - Select Previous Tab | Select Next Tab. 切換所在位置的上下分頁。
+* Alt+Shift+Up | Alt+Shift+Down - Move Creat to Previous Method | Move Creat to Next Method. 上下切換函數。
 * Ctrl+Shift+A - Find Action.
 * Ctrl+Shift+R - Refactor This.
 * Shift+Alt+L - Locating Current File in Solution Explorer.
