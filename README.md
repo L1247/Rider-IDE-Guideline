@@ -30,7 +30,7 @@
 * Alt+Home - Jump To Navigation Bar in Main menu.
 * Shift+Shitft - Search EveryWhere.
 * Ctrl+Alt+j - Surround With. 可以把選取的括號之類的。
-* Ctrl+Shift+j - Join Line. 在該行的前面用可以把下一行的頭Cut到該行的最後面。
+* Ctrl+Shift+j - Join Line. 1.在該行的前面用可以把下一行的頭Cut到該行的最後面。2.把多行選起來，可以讓多行變成同一行。
 * Ctrl+Shift+Enter - 直接在最後面加上分號，並的開頭跳到下一行。
 * Ctrl+Shift+I - Show出目前的類別檔案在小視窗內。
 
