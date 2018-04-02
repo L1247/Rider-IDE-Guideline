@@ -21,6 +21,7 @@
 * Ctrl+Alt+Left - Move To Opposite Group.
 * Ctrl+Shift+Enter - 在IF區域大括號(右)外面按下會自動產生Else.
 * Ctrl+Q - Show API Documentation.
+* Ctrl+J - Show Method Info. 在方法內按下會顯示該參數的細節。
 * Ctrl+Backspace - Delete to Word Start. 刪除一行到上一行的最後。
 * Ctrl+Enter - 跳到對齊行的開頭，可以不用一直按TAB。
 * 在方法內打完參數後，按下Ctrl + Enter 就會直接跳到尾端.
