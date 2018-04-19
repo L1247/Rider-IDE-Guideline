@@ -37,8 +37,12 @@
 * Ctrl+Shift+j - Join Line. 1.在該行的前面用可以把下一行的頭Cut到該行的最後面。2.把多行選起來，可以讓多行變成同一行。
 * Ctrl+Shift+Enter - 直接在最後面加上分號，並的開頭跳到下一行。
 * Ctrl+Shift+I - Show出目前的類別檔案在小視窗內。
-* Ctrl+B - Goto Declaration. 跳到宣告的地方。
+* Ctrl+B - Goto Declaration. 跳到宣告的地方.
 * Ctrl+Minus - Back. 返回上一個地方。
+
+# Refactoring
+* Ctrl+Alt+V - 產生區域變數
+* Ctrl+Alt+D - 產生欄位變數
 
 # Custom Shortcuts
 * Shift+Alt+Up or Down - Previous or Next Method.
