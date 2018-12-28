@@ -1,5 +1,7 @@
 # Rider-Guideline
 https://github.com/JetBrains/resharper-unity
+GetComponent
+https://github.com/JetBrains/resharper-unity/wiki/Avoid-usage-of-GetComponent-methods-in-performance-critical-context
 # Shortcuts
 * Ctrl + E - Recent Files.
 * Ctrl+Shift+Alt+A - Inspect This.
