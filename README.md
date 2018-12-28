@@ -1,5 +1,5 @@
 # Rider-Guideline
-
+https://github.com/JetBrains/resharper-unity
 # Shortcuts
 * Ctrl + E - Recent Files.
 * Ctrl+Shift+Alt+A - Inspect This.
