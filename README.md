@@ -11,11 +11,12 @@ https://github.com/JetBrains/resharper-unity/wiki/Avoid-usage-of-GetComponent-me
  括號內使用可以Show出所有該格可以使用的參數 。括號內按 Alt + Space 
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Code%20Complete%20-%20Basic.png?raw=true)
 
-## Code Complete-Cyclic Expand Word 字串自動完成。 字串內按 Alt + /
-尋找目前開啟的視窗，自動填入符合的字串
+## Code Complete-Cyclic Expand Word 字串自動完成。 
+字串內按 Alt + / 尋找目前開啟的視窗，自動填入符合的字串
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Code%20Complete%20-%20Cyclic%20Expand%20Word.gif?raw=true)
 
-## Parameter Info 參數資訊 。 括號內按 Ctrl + P
+## Parameter Info 參數資訊
+括號內按 Ctrl + P
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Show%20Parameter%20Info.png?raw=true)
  
 * Ctrl + E - Recent Files.
