@@ -3,6 +3,15 @@ https://github.com/JetBrains/resharper-unity
 GetComponent
 https://github.com/JetBrains/resharper-unity/wiki/Avoid-usage-of-GetComponent-methods-in-performance-critical-context
 # Shortcuts
+## Code Complete 自動完成
+ 括號內使用可以Show出所有該格可以使用的參數 。括號內按 Alt + Space 
+ 
+## Code Complete 字串自動完成。 字串內按 Alt + /
+尋找目前開啟的視窗，自動填入符合的字串
+
+## Code Complete 字串自動完成。 字串內按 Alt + /
+尋找目前開啟的視窗，自動填入符合的字串
+ 
 * Ctrl + E - Recent Files.
 * Ctrl+Shift+Alt+A - Inspect This.
   * 在函數上使用，可以顯示外部內部調用、Code Issues等等
