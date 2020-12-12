@@ -1,7 +1,11 @@
+# My Rider Setting Repository
+https://github.com/L1247/Rider-Setting-Repository
 # Rider-Guideline
 https://github.com/JetBrains/resharper-unity
+
 GetComponent
 https://github.com/JetBrains/resharper-unity/wiki/Avoid-usage-of-GetComponent-methods-in-performance-critical-context
+
 # Shortcuts
 ## Code Complete 自動完成
  括號內使用可以Show出所有該格可以使用的參數 。括號內按 Alt + Space 
