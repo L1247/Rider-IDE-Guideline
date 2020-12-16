@@ -27,6 +27,7 @@ https://github.com/JetBrains/resharper-unity/wiki/Avoid-usage-of-GetComponent-me
 
 ## Comment With Line 註解單行
 * Ctrl + /
+
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Comment%20With%20Line.gif?raw=true)
 
 ## Comment With Block 註解選取，並加上/**/
