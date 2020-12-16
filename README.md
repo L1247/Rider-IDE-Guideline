@@ -31,6 +31,11 @@ https://github.com/JetBrains/resharper-unity/wiki/Avoid-usage-of-GetComponent-me
 ## Comment With Block 註解選取，並加上/**/
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Block%20Comment.gif?raw=true)
 
+## Rearrange Code 重新排列程式碼，需使用阿星的File Layout，按照Public Protected Priveate 往下排列
+![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Rearrange%20Code.gif?raw=true)
+
+## Reformat Code 重新格式化程式碼，將開頭對齊，或者刪除沒用的空白
+![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Reformat%20Code.gif?raw=true)
  
 * Ctrl + E - Recent Files.
 * Ctrl+Shift+Alt+A - Inspect This.
