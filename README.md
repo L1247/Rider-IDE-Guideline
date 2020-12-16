@@ -1,6 +1,6 @@
-# My Rider Setting Repository
+## 讀取阿星的Rider設定檔
+My Rider Setting Repository
 https://github.com/L1247/Rider-Setting-Repository
-讀取阿星的Rider設定檔
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Load%20RepositorySetting.gif?raw=true)
 # Rider-Guideline
 https://github.com/JetBrains/resharper-unity
