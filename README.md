@@ -10,35 +10,35 @@ https://github.com/JetBrains/resharper-unity/wiki/Avoid-usage-of-GetComponent-me
 
 # Shortcuts
 ## Code Complete 自動完成
- 括號內使用可以Show出所有該格可以使用的參數 。括號內按 Alt + Space 
+* 括號內使用可以Show出所有該格可以使用的參數 。括號內按 Alt + Space 
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Code%20Complete%20-%20Basic.png?raw=true)
 
 ## Code Complete-Cyclic Expand Word 字串自動完成。 
-字串內按 Alt + / 尋找目前開啟的視窗，自動填入符合的字串
+* 字串內按 Alt + / 尋找目前開啟的視窗，自動填入符合的字串
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Code%20Complete%20-%20Cyclic%20Expand%20Word.gif?raw=true)
 
 ## Basic Completion 基本的自動完成，搜尋現有已宣告的欄位(field)
-按下 Ctrl + Space
+* 按下 Ctrl + Space
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Basic%20Completion.gif?raw=true)
 
 ## Parameter Info 參數資訊
-括號內按 Ctrl + P
+* 括號內按 Ctrl + P
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Show%20Parameter%20Info.png?raw=true)
 
 ## Comment With Line 註解單行
-Ctrl + /
+* Ctrl + /
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Comment%20With%20Line.gif?raw=true)
 
 ## Comment With Block 註解選取，並加上/**/
-選取範圍程式碼後，Ctrl + Shift + /
+* 選取範圍程式碼後，Ctrl + Shift + /
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Block%20Comment.gif?raw=true)
 
 ## Rearrange Code 重新排列程式碼，需使用阿星的File Layout，按照Public Protected Priveate 往下排列
-Ctrl + Alt + ,
+* Ctrl + Alt + ,
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Rearrange%20Code.gif?raw=true)
 
 ## Reformat Code 重新格式化程式碼，將開頭對齊，或者刪除沒用的空白
-Shift + Alt + L
+* Shift + Alt + L
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Reformat%20Code.gif?raw=true)
  
 * Ctrl + E - Recent Files.
