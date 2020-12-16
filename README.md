@@ -1,5 +1,7 @@
 # My Rider Setting Repository
 https://github.com/L1247/Rider-Setting-Repository
+讀取阿星的Rider設定檔
+![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Load%20RepositorySetting.gif?raw=true)
 # Rider-Guideline
 https://github.com/JetBrains/resharper-unity
 
@@ -15,9 +17,20 @@ https://github.com/JetBrains/resharper-unity/wiki/Avoid-usage-of-GetComponent-me
 字串內按 Alt + / 尋找目前開啟的視窗，自動填入符合的字串
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Code%20Complete%20-%20Cyclic%20Expand%20Word.gif?raw=true)
 
+## Basic Completion 基本的自動完成，搜尋現有已宣告的欄位(field)
+按下 Ctrl + Space
+![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Basic%20Completion.gif?raw=true)
+
 ## Parameter Info 參數資訊
 括號內按 Ctrl + P
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Show%20Parameter%20Info.png?raw=true)
+
+## Comment With Line 註解單行
+![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Comment%20With%20Line.gif?raw=true)
+
+## Comment With Block 註解選取，並加上/**/
+![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Block%20Comment.gif?raw=true)
+
  
 * Ctrl + E - Recent Files.
 * Ctrl+Shift+Alt+A - Inspect This.
