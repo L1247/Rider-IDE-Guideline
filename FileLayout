@@ -1,0 +1,230 @@
+<Patterns xmlns="urn:schemas-jetbrains-com:member-reordering-patterns">
+
+    <TypePattern DisplayName="Non-reorderable types">
+        <TypePattern.Match>
+            <Or>
+                <And>
+                    <Kind Is="Interface"/>
+                    <Or>
+                        <HasAttribute Name="System.Runtime.InteropServices.InterfaceTypeAttribute"/>
+                        <HasAttribute Name="System.Runtime.InteropServices.ComImport"/>
+                    </Or>
+                </And>
+                <Kind Is="Struct"/>
+                <HasAttribute Name="JetBrains.Annotations.NoReorderAttribute"/>
+                <HasAttribute Name="JetBrains.Annotations.NoReorder"/>
+            </Or>
+        </TypePattern.Match>
+    </TypePattern>
+
+    <TypePattern DisplayName="My Default Pattern" RemoveRegions="All">
+
+        <Region Name="Public Variables">
+            <Entry>
+                <Entry.Match>
+                    <And>
+                        <Or>
+                            <Kind Is="Constant"/>
+                            <Kind Is="Property"/>
+                            <Kind Is="Indexer"/>
+                            <Kind Is="Field"/>
+                            <Kind Is="Enum"/>
+                        </Or>
+                        <Access Is="Public"/>
+                    </And>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Kind>
+                        <Kind.Order></Kind.Order>
+                    </Kind>
+                    <Static/>
+                    <Type/>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Protected Variables">
+            <Entry>
+                <Entry.Match>
+                    <And>
+                        <Or>
+                            <Kind Is="Constant"/>
+                            <Kind Is="Property"/>
+                            <Kind Is="Indexer"/>
+                            <Kind Is="Field"/>
+                            <Kind Is="Enum"/>
+                        </Or>
+                        <Access Is="Protected"/>
+                    </And>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Kind>
+                        <Kind.Order></Kind.Order>
+                    </Kind>
+                    <Static/>
+                    <Type/>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Private Variables">
+            <Entry>
+                <Entry.Match>
+                    <And>
+                        <Or>
+                            <Kind Is="Constant"/>
+                            <Kind Is="Field"/>
+                            <Kind Is="Class"/>
+                            <Kind Is="Property"/>
+                            <Kind Is="Indexer"/>
+                            <Kind Is="Enum"/>
+                        </Or>
+                        <Not>
+                            <Access Is="Public"/>
+                        </Not>
+                    </And>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Kind>
+                        <Kind.Order></Kind.Order>
+                    </Kind>
+                    <Static/>
+                    <Type/>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Unity events">
+            <Entry>
+                <Entry.Match>
+                    <Or>
+                        <Name Is="^Start$"/>
+                    </Or>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Setup/Teardown Methods">
+            <Entry DisplayName="Setup/Teardown Methods">
+                <Entry.Match>
+                    <And>
+                        <Kind Is="Method" />
+                        <Or>
+                            <HasAttribute Name="NUnit.Framework.SetUpAttribute" />
+                            <HasAttribute Name="NUnit.Framework.TearDownAttribute" />
+                        </Or>
+                    </And>
+                </Entry.Match>
+            </Entry>
+        </Region>
+
+        <Region Name="Test Methods">
+            <Entry DisplayName="Test Methods">
+                <Entry.Match>
+                    <And>
+                        <Kind Is="Method" />
+                        <Or>
+                            <HasAttribute Name="NUnit.Framework.TestAttribute" />
+                        </Or>
+                    </And>
+                </Entry.Match>
+            </Entry>
+        </Region>
+
+        <Region Name="Public Methods">
+            <Entry>
+                <Entry.Match>
+                    <And>
+                        <Kind Is="Method"/>
+                        <Not>
+                            <Name Is="^On"/>
+                        </Not>
+                        <Access Is="Public"/>
+                    </And>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Protected Methods">
+            <Entry>
+                <Entry.Match>
+                    <And>
+                        <Kind Is="Method"/>
+                        <Not>
+                            <Name Is="^On"/>
+                        </Not>
+                        <Access Is="Protected"/>
+                    </And>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Private Methods">
+            <Entry>
+                <Entry.Match>
+                    <And>
+                        <Kind Is="Method"/>
+                        <Not>
+                            <Name Is="^On"/>
+                        </Not>
+                        <Access Is="Private"/>
+                    </And>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Events">
+            <Entry>
+                <Entry.Match >
+                    <And>
+                        <Kind Is="Method"/>
+                        <Name Is="^On"/>
+                    </And>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Delegates">
+            <Entry>
+                <Entry.Match>
+                    <Kind Is="Delegate"/>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Access/>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+        <Region Name="Nested Types">
+            <Entry>
+                <Entry.Match>
+                    <Kind Is="Type"/>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Access/>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+
+    </TypePattern>
+</Patterns>
