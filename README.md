@@ -2,6 +2,9 @@
 My Rider Setting Repository
 https://github.com/L1247/Rider-Setting-Repository
 ![image](https://github.com/L1247/Rider-IDE-Guideline/blob/master/ScreenShot/Load%20RepositorySetting.gif?raw=true)
+## File Layout
+https://github.com/L1247/Rider-IDE-Guideline/blob/master/FileLayout
+
 # Rider-Guideline
 https://github.com/JetBrains/resharper-unity
 
