@@ -96,7 +96,23 @@
                 </Entry.SortBy>
             </Entry>
         </Region>
-
+        
+        <Region Name="Constructor ">
+            <Entry>
+                <Entry.Match>
+                    <And>
+                        <Kind Is="Constructor"/>
+                        <Not>
+                            <Name Is="^On"/>
+                        </Not>
+                    </And>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+        
         <Region Name="Unity events">
             <Entry>
                 <Entry.Match>
