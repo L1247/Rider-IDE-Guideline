@@ -1,0 +1,109 @@
+
+nmap zso :source C:\Users\User\.ideavimrc<CR>
+:set rnu
+:set surround
+:set ignorecase
+:set clipboard+=unnamed
+
+nmap z; $a;<Esc>
+imap z; <Esc>$a;
+
+nmap ,p "-1p
+nmap ,P "-1P
+imap z,p <Esc>pa
+imap z,P <Esc>"0Pa
+:nmap z, vi)
+:nmap z. vi}
+:nmap z) vi)
+:nmap z} vi}
+:nmap z> vit
+:nmap c> cit
+:nmap z" vi"
+:nmap zcc ci"
+:nmap zxx ci]
+:nmap zaa ca"
+:imap jj <Esc>
+:nmap <BS> a<BS>
+:nmap zh ^
+:nmap hh ^
+:imap zh <Esc>^i
+:nmap zl $
+:nmap ll $
+:imap zl <End>
+:nmap hc ^C
+:nmap zb ciw
+:vmap zb <Esc>ciw
+:imap zd <Esc>dd
+nmap qq ZQ
+nmap zq :wq<CR>
+:nmap <BS> a<BS>
+imap <F1> <Esc>ztmay?[T<CR>`ap?void<CR>w:action ReformatCode<CR>
+nmap <F1> ztmay?[T<CR>`ap?void<CR>w:action ReformatCode<CR>
+imap <A-F1> <Esc>may?[F<CR>`ap?void<CR>wzz
+nmap <A-F1> may?[F<CR>`ap?void<CR>wzz
+
+imap zae Assert.AreEqual(expected,actual);<Esc>T(
+nmap zae aAssert.AreEqual(expected,actual);<Esc>T(
+
+nmap zk :action Back<CR>
+imap zk <Esc>:action Back<CR>
+nmap zj :action Forward<CR>
+imap zj <Esc>:action Forward<CR>
+nmap zn :action ReSharperGotoPrevErrorInSolution<CR>
+imap zn <Esc>:action ReSharperGotoPrevErrorInSolution<CR>a
+nmap zf :action GotoDeclaration<CR>
+nmap zF :action RdParameterDeclarationNavigationAction<CR>
+imap zf <Esc>:action GotoDeclaration<CR>
+imap zF <Esc>:action RdParameterDeclarationNavigationAction<CR>
+nmap zgc zz:action CheckinProject<CR>
+
+map zrr :action RenameElement<CR>
+
+nmap zra :action ReformatCode<CR>zz<Action>(RiderUnitTestRunSolutionAction)
+imap zra <Esc>:action ReformatCode<CR>zz<Action>(RiderUnitTestRunSolutionAction)
+map zri :action Inline<CR>
+imap zri <Esc>:action Inline<CR>
+map zrf :action IntroduceField<CR>
+imap zrf <Esc>:action IntroduceField<CR>
+map zrp vaw:action IntroduceParameter<CR>
+imap zrp <Esc>vaw:action IntroduceParameter<CR>
+nmap zrp vi":action IntroduceParameter<CR>
+
+map zrv :action IntroduceVariable<CR>
+vmap zrv <Esc>:action IntroduceVariable<CR>
+imap zrv <Esc>:action IntroduceVariable<CR>
+vmap M :action ExtractMethod<CR>
+map zrt :action ReformatCode<CR>:action SearchEverywhere<CR>
+imap zrt <Esc>:action SearchEverywhere<CR>
+map zro :action Move<CR>
+imap zro <Esc>:action Move<CR>
+map <C-D> :action EditorDuplicateLines<CR>
+imap <C-D> <Esc>:action EditorDuplicateLines<CR>
+map <C-A-K> :action MoveLineUp<CR>:action VimAutoIndentLines<CR>
+imap <C-A-K> <Esc>:action MoveLineUp<CR>:action VimAutoIndentLines<CR>
+map <C-A-J> :action MoveLineDown<CR>:action VimAutoIndentLines<CR>
+imap <C-A-J> <Esc>:action MoveLineDown<CR>:action VimAutoIndentLines<CR>
+map <A-D> :action EditorDeleteLine<CR>
+imap <A-D> <Esc>:action EditorDeleteLine<CR>
+
+nmap zm :action BuildSolutionAction<CR>
+nmap <A-u> :redo<CR>
+nmap <C-w> :action SmartSelect<CR>:action VimVisualSwapSelections<CR>
+
+:nmap ,m :action ReformatCode<CR>:action FileStructurePopup<CR>
+:vmap \s :action SurroundWith<CR>
+:nmap zrs dd?class<CR>jo[SetUp]<CR>public<Space>void<Space>SetUp(){<CR>}<Esc>P:action SilentCodeCleanup<CR>
+:nmap zrx dd?SetUp<CR>j%P:action SilentCodeCleanup<CR>
+
+nmap <C-CR> mza<CR><Esc>`z
+
+:nmap <Space> :action AceAction<CR>
+:nmap ,g :action Generate<CR>
+#nmap <C-n> :action NewElementSamePlace<CR>
+:nmap ,c :action NewElementSamePlace<CR>
+:nmap <A-l> :set rnu!<CR>
+
+vmap <Tab> >gv
+vmap <S-Tab> <gv
+nnoremap <Tab> >>
+nnoremap <S-Tab> <<
