@@ -1,0 +1,41 @@
+using NUnit.Framework;
+using MainTests.ExtenjectTestFramwork;
+using DDDCore.Usecase.CQRS;
+
+namespace $NAMESPACE$
+{
+    public class $UseCase$UseCaseTest : AbstractAutoBotTest
+    {
+        [Test]
+        public void Should_Succeed_When_$UseCase$()
+        {
+            var $useCase$ = new $UseCase$UseCase(_domainEventBus , $entity$Repository);
+            var input                = new $UseCase$Input();
+
+            var $entity$ = $Entity$Builder.NewInstance()
+                                    .SetId($entity$Id)
+                                    .Build();
+            
+            $entity$Repository.Save($entity$);
+
+            input.$Entity$Id = $entity$Id;
+            $useCase$.Execute(input , output);
+
+            Assert.NotNull(output.GetId());
+            Assert.AreEqual(ExitCode.SUCCESS , output.GetExitCode());
+            var $entity$ById = $entity$Repository.FindById(output.GetId());
+            Assert.NotNull($entity$ById);
+        }
+    }
+    public class $UseCase$Input{}
+        public class $UseCase$UseCase : UseCase<$UseCase$Input , CqrsCommandPresenter , $Entity$Repository>
+    {
+        public $UseCase$UseCase(DomainEventBus domainEventBus , $Entity$Repository repository) : base(
+            domainEventBus , repository) { }
+
+        public override void Execute($UseCase$Input input , CqrsCommandPresenter output)
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+}
