@@ -4,7 +4,7 @@ using DDDCore.Usecase.CQRS;
 
 namespace $NAMESPACE$
 {
-    public class $UseCase$UseCaseTest : AbstractAutoBotTest
+    public class $UseCase$UseCaseTest : AbstractTest
     {
         [Test]
         public void Should_Succeed_When_$UseCase$()
@@ -27,7 +27,10 @@ namespace $NAMESPACE$
             Assert.NotNull($entity$ById);
         }
     }
-    public class $UseCase$Input{}
+    public class $UseCase$Input
+    {
+        public string $Entity$Id;
+    }
         public class $UseCase$UseCase : UseCase<$UseCase$Input , CqrsCommandPresenter , $Entity$Repository>
     {
         public $UseCase$UseCase(DomainEventBus domainEventBus , $Entity$Repository repository) : base(
