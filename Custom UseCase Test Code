@@ -13,7 +13,7 @@ namespace $NAMESPACE$
             var input                = new $UseCase$Input();
 
             var $entity$ = $Entity$Builder.NewInstance()
-                                    .SetId($entity$Id)
+                                    .Set$Entity$Id($entity$Id)
                                     .Build();
             
             $entity$Repository.Save($entity$);
