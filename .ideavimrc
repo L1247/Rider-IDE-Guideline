@@ -49,10 +49,10 @@ nmap zk :action Back<CR>
 imap zk <Esc>:action Back<CR>
 nmap zj :action Forward<CR>
 imap zj <Esc>:action Forward<CR>
-nmap zn :action GotoNextError<CR>
-imap zn <Esc>:action GotoNextError<CR>a
-nmap zN :action GotoPreviousError<CR>
-imap zN <Esc>:action GotoPreviousError<CR>a
+nmap zn :action ReSharperGotoNextErrorInSolution<CR>
+imap zn <Esc>:action ReSharperGotoNextErrorInSolution<CR>a
+nmap zN :action ReSharperGotoPrevErrorInSolution<CR>
+imap zN <Esc>:action ReSharperGotoPrevErrorInSolution<CR>a
 nmap zf :action GotoDeclaration<CR>
 nmap zF :action RdParameterDeclarationNavigationAction<CR>
 imap zf <Esc>:action GotoDeclaration<CR>
