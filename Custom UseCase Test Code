@@ -36,9 +36,6 @@ namespace $NAMESPACE$
         public $UseCase$UseCase(DomainEventBus domainEventBus , $Entity$Repository repository) : base(
             domainEventBus , repository) { }
 
-        public override void Execute($UseCase$Input input , CqrsCommandPresenter output)
-        {
-            throw new System.NotImplementedException();
-        }
+        public override void Execute($UseCase$Input input , CqrsCommandPresenter output){}
     }
 }
