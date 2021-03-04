@@ -96,7 +96,7 @@
                 </Entry.SortBy>
             </Entry>
         </Region>
-        
+
         <Region Name="Constructor ">
             <Entry>
                 <Entry.Match>
@@ -112,7 +112,7 @@
                 </Entry.SortBy>
             </Entry>
         </Region>
-        
+
         <Region Name="Unity events">
             <Entry>
                 <Entry.Match>
@@ -152,7 +152,21 @@
                 </Entry.Match>
             </Entry>
         </Region>
-
+        
+        <Region Name="Events">
+            <Entry>
+                <Entry.Match>
+                    <And>
+                        <Kind Is="Method"/>
+                        <Name Is="^On.*"/>
+                    </And>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
+        
         <Region Name="Public Methods">
             <Entry>
                 <Entry.Match>
@@ -204,19 +218,7 @@
             </Entry>
         </Region>
 
-        <Region Name="Events">
-            <Entry>
-                <Entry.Match >
-                    <And>
-                        <Kind Is="Method"/>
-                        <Name Is="^On"/>
-                    </And>
-                </Entry.Match>
-                <Entry.SortBy>
-                    <Name/>
-                </Entry.SortBy>
-            </Entry>
-        </Region>
+       
 
         <Region Name="Delegates">
             <Entry>
