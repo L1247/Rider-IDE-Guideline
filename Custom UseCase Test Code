@@ -12,9 +12,10 @@ namespace $NAMESPACE$
             var $useCase$ = new $UseCase$UseCase(_domainEventBus , $entity$Repository);
             var input                = new $UseCase$Input();
 
-            var $entity$ = $Entity$Builder.NewInstance()
-                                    .Set$Entity$Id($entity$Id)
-                                    .Build();
+            var $entity$ = $Entity$Builder
+                                .NewInstance()
+                                .SetEquipmentSlotId(equipmentSlotId)
+                                .Build();
             
             $entity$Repository.Save($entity$);
 
