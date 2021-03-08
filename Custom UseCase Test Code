@@ -14,7 +14,7 @@ namespace $NAMESPACE$
 
             var $entity$ = $Entity$Builder
                                 .NewInstance()
-                                .SetEquipmentSlotId(equipmentSlotId)
+                                .Set$Entity$Id($entity$Id)
                                 .Build();
             
             $entity$Repository.Save($entity$);
