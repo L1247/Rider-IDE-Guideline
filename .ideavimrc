@@ -50,16 +50,19 @@ imap zk <Esc>:action Back<CR>
 nmap zj :action Forward<CR>
 imap zj <Esc>:action Forward<CR>
 nmap zn :action ReSharperGotoNextErrorInSolution<CR>
-imap zn <Esc>:action ReSharperGotoNextErrorInSolution<CR>a
+imap zn <Esc>:action ReSharperGotoNextErrorInSolution<CR>
 nmap zN :action ReSharperGotoPrevErrorInSolution<CR>
-imap zN <Esc>:action ReSharperGotoPrevErrorInSolution<CR>a
+imap zN <Esc>:action ReSharperGotoPrevErrorInSolution<CR>
 nmap zf :action GotoDeclaration<CR>
 nmap zF :action RdParameterDeclarationNavigationAction<CR>
 imap zf <Esc>:action GotoDeclaration<CR>
 imap zF <Esc>:action RdParameterDeclarationNavigationAction<CR>
 nmap zgc zz:action CheckinProject<CR>
 
-map zrr :action RenameElement<CR>
+imap zrr <Esc>:action RenameElement<CR>
+nmap zrr :action RenameElement<CR>
+imap zg <Esc>:action $SelectAll<CR>
+nmap zg :action $SelectAll<CR>
 
 nmap zra :action ReformatCode<CR>zz<Action>(RiderUnitTestRunSolutionAction)
 imap zra <Esc>:action ReformatCode<CR>zz<Action>(RiderUnitTestRunSolutionAction)
@@ -88,7 +91,6 @@ imap <C-A-J> <Esc>:action MoveLineDown<CR>:action VimAutoIndentLines<CR>
 map <A-D> :action EditorDeleteLine<CR>
 imap <A-D> <Esc>:action EditorDeleteLine<CR>
 
-nmap zm :action BuildSolutionAction<CR>
 nmap <A-u> :redo<CR>
 nmap <C-w> :action SmartSelect<CR>:action VimVisualSwapSelections<CR>
 
