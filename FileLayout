@@ -24,6 +24,7 @@
                 <Entry.Match>
                     <And>
                         <Or>
+                            <Static/>
                             <Kind Is="Constant"/>
                             <Kind Is="Property"/>
                             <Kind Is="Indexer"/>
@@ -37,7 +38,6 @@
                     <Kind>
                         <Kind.Order></Kind.Order>
                     </Kind>
-                    <Static/>
                     <Type/>
                     <Name/>
                 </Entry.SortBy>
@@ -91,12 +91,10 @@
                         <Kind.Order></Kind.Order>
                     </Kind>
                     <Static/>
-                    <Type/>
-                    <Name/>
                 </Entry.SortBy>
             </Entry>
         </Region>
-
+        
         <Region Name="Constructor ">
             <Entry>
                 <Entry.Match>
@@ -112,12 +110,14 @@
                 </Entry.SortBy>
             </Entry>
         </Region>
-
+        
         <Region Name="Unity events">
             <Entry>
                 <Entry.Match>
                     <Or>
                         <Name Is="^Start$"/>
+                        <Name Is="^Awake$"/>
+                        <Name Is="^Update$"/>
                     </Or>
                 </Entry.Match>
                 <Entry.SortBy>
@@ -152,21 +152,7 @@
                 </Entry.Match>
             </Entry>
         </Region>
-        
-        <Region Name="Events">
-            <Entry>
-                <Entry.Match>
-                    <And>
-                        <Kind Is="Method"/>
-                        <Name Is="^On.*"/>
-                    </And>
-                </Entry.Match>
-                <Entry.SortBy>
-                    <Name/>
-                </Entry.SortBy>
-            </Entry>
-        </Region>
-        
+
         <Region Name="Public Methods">
             <Entry>
                 <Entry.Match>
@@ -218,7 +204,19 @@
             </Entry>
         </Region>
 
-       
+        <Region Name="Events">
+            <Entry>
+                <Entry.Match >
+                    <And>
+                        <Kind Is="Method"/>
+                        <Name Is="^On"/>
+                    </And>
+                </Entry.Match>
+                <Entry.SortBy>
+                    <Name/>
+                </Entry.SortBy>
+            </Entry>
+        </Region>
 
         <Region Name="Delegates">
             <Entry>
