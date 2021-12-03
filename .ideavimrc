@@ -1,9 +1,9 @@
-
-nmap zso :source C:\Users\User\.ideavimrc<CR>
+nmap zso :source C:\Users\Star\.ideavimrc<CR>
 :set rnu
 :set surround
 :set ignorecase
 :set clipboard+=unnamed
+:set sidescroll=1
 
 nmap z; $a;<Esc>
 imap z; <Esc>$a;
@@ -16,12 +16,15 @@ imap z,P <Esc>"0Pa
 :nmap z. vi}
 :nmap z) vi)
 :nmap z} vi}
+:nmap zo <Esc>f(
+:nmap zp <Esc>f)
 :nmap z> vit
 :nmap c> cit
 :nmap z" vi"
 :nmap zcc ci"
 :nmap zxx ci]
 :nmap zaa ca"
+:nmap zvv f<ci>
 :imap jj <Esc>
 :nmap <BS> a<BS>
 :nmap zh ^
