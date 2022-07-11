@@ -94,7 +94,7 @@
                 </Entry.SortBy>
             </Entry>
         </Region>
-        
+
         <Region Name="Constructor ">
             <Entry>
                 <Entry.Match>
@@ -110,7 +110,7 @@
                 </Entry.SortBy>
             </Entry>
         </Region>
-        
+
         <Region Name="Unity events">
             <Entry>
                 <Entry.Match>
@@ -130,10 +130,10 @@
             <Entry DisplayName="Setup/Teardown Methods">
                 <Entry.Match>
                     <And>
-                        <Kind Is="Method" />
+                        <Kind Is="Method"/>
                         <Or>
-                            <HasAttribute Name="NUnit.Framework.SetUpAttribute" />
-                            <HasAttribute Name="NUnit.Framework.TearDownAttribute" />
+                            <HasAttribute Name="NUnit.Framework.SetUpAttribute"/>
+                            <HasAttribute Name="NUnit.Framework.TearDownAttribute"/>
                         </Or>
                     </And>
                 </Entry.Match>
@@ -144,9 +144,9 @@
             <Entry DisplayName="Test Methods">
                 <Entry.Match>
                     <And>
-                        <Kind Is="Method" />
+                        <Kind Is="Method"/>
                         <Or>
-                            <HasAttribute Name="NUnit.Framework.TestAttribute" />
+                            <HasAttribute Name="NUnit.Framework.TestAttribute"/>
                         </Or>
                     </And>
                 </Entry.Match>
@@ -206,7 +206,7 @@
 
         <Region Name="Events">
             <Entry>
-                <Entry.Match >
+                <Entry.Match>
                     <And>
                         <Kind Is="Method"/>
                         <Name Is="^On"/>
