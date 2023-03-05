@@ -24,7 +24,6 @@
                 <Entry.Match>
                     <And>
                         <Or>
-                            <Static/>
                             <Kind Is="Constant"/>
                             <Kind Is="Property"/>
                             <Kind Is="Indexer"/>
@@ -38,6 +37,7 @@
                     <Kind>
                         <Kind.Order></Kind.Order>
                     </Kind>
+                    <Static/>
                     <Type/>
                     <Name/>
                 </Entry.SortBy>
@@ -158,6 +158,9 @@
                 <Entry.Match>
                     <And>
                         <Kind Is="Method"/>
+                        <Or>
+                            <Name Is="_.._"/>
+                        </Or>
                         <Not>
                             <Name Is="^On"/>
                         </Not>
