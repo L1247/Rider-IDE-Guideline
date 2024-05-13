@@ -271,9 +271,9 @@
     &amp;lt;Reformat&amp;gt;true&amp;lt;/Reformat&amp;gt;&#xD;
   &amp;lt;/Language&amp;gt;&#xD;
   &amp;lt;Language id="HTML"&amp;gt;&#xD;
-    &amp;lt;Reformat&amp;gt;true&amp;lt;/Reformat&amp;gt;&#xD;
-    &amp;lt;Rearrange&amp;gt;true&amp;lt;/Rearrange&amp;gt;&#xD;
     &amp;lt;OptimizeImports&amp;gt;true&amp;lt;/OptimizeImports&amp;gt;&#xD;
+    &amp;lt;Rearrange&amp;gt;true&amp;lt;/Rearrange&amp;gt;&#xD;
+    &amp;lt;Reformat&amp;gt;true&amp;lt;/Reformat&amp;gt;&#xD;
   &amp;lt;/Language&amp;gt;&#xD;
   &amp;lt;Language id="Ini"&amp;gt;&#xD;
     &amp;lt;Reformat&amp;gt;true&amp;lt;/Reformat&amp;gt;&#xD;
@@ -288,9 +288,9 @@
     &amp;lt;Reformat&amp;gt;true&amp;lt;/Reformat&amp;gt;&#xD;
   &amp;lt;/Language&amp;gt;&#xD;
   &amp;lt;Language id="XML"&amp;gt;&#xD;
-    &amp;lt;Reformat&amp;gt;true&amp;lt;/Reformat&amp;gt;&#xD;
-    &amp;lt;Rearrange&amp;gt;true&amp;lt;/Rearrange&amp;gt;&#xD;
     &amp;lt;OptimizeImports&amp;gt;true&amp;lt;/OptimizeImports&amp;gt;&#xD;
+    &amp;lt;Rearrange&amp;gt;true&amp;lt;/Rearrange&amp;gt;&#xD;
+    &amp;lt;Reformat&amp;gt;true&amp;lt;/Reformat&amp;gt;&#xD;
   &amp;lt;/Language&amp;gt;&#xD;
   &amp;lt;Language id="yaml"&amp;gt;&#xD;
     &amp;lt;Reformat&amp;gt;true&amp;lt;/Reformat&amp;gt;&#xD;
@@ -652,6 +652,7 @@
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENet_002EMime_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002ENumerics_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=System_002EText_002EEncoding/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=UnityEngine_002EPose_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=UnityEngine_002ETextCore_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/AutoImport2/=CSHARP/BlackLists/=UnityEngine_002EUIElements_002E_002A/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/Editor/UseCamelHumps/@EntryValue">True</s:Boolean>
@@ -660,7 +661,7 @@
 	<s:String x:Key="/Default/Environment/Hierarchy/Build/Xamarin/AndroidNdkPath/@EntryValue">C:\Program Files (x86)\Android\android-ndk-r10e</s:String>
 	<s:String x:Key="/Default/Environment/Hierarchy/Build/Xamarin/AndroidSdkPath/@EntryValue">C:\Program Files (x86)\Android\android-sdk</s:String>
 	<s:String x:Key="/Default/Environment/Hierarchy/Build/Xamarin/JavaDevelopmentKitPath/@EntryValue">C:\Program Files\Java\jdk1.8.0_161</s:String>
-	<s:Int64 x:Key="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue">292</s:Int64>
+	<s:Int64 x:Key="/Default/Environment/Hierarchy/GeneratedFilesCacheKey/Timestamp/@EntryValue">449</s:Int64>
 	<s:Boolean x:Key="/Default/Environment/InlayHints/CSharpParameterNameHintsOptions/HideIfIntentionOfFirstParameterIsClearFromMethodName/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpKeepExistingMigration/@EntryIndexedValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/Environment/SettingsMigration/IsMigratorApplied/=JetBrains_002EReSharper_002EPsi_002ECSharp_002ECodeStyle_002ECSharpPlaceEmbeddedOnSameLineMigration/@EntryIndexedValue">True</s:Boolean>
@@ -674,7 +675,7 @@
 	<s:Boolean x:Key="/Default/Housekeeping/FeatureSuggestion/FeatureSuggestionManager/DisabledSuggesters/=TabNavigationExplainer/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/Housekeeping/FeedbackReport/SelectedUserIdentificator/@EntryValue">anonymous</s:String>
 	<s:Boolean x:Key="/Default/Housekeeping/GlobalSettingsUpgraded/IsUpgraded/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue">TypeImportPage</s:String>
+	<s:String x:Key="/Default/Housekeeping/OptionsDialog/SelectedPageId/@EntryValue">CodeCleanupOptionsPage</s:String>
 	<s:Boolean x:Key="/Default/Housekeeping/RefactoringsMru/InlineMethod/RemoveInitialDeclaration/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Housekeeping/RefactoringsMru/InlineMethod/ReplaceAllUsages/@EntryValue">False</s:Boolean>
 	<s:Boolean x:Key="/Default/Housekeeping/RefactoringsMru/SerializedFieldRenameRefactoring/ShouldAddFormerlySerializedAs/@EntryValue">False</s:Boolean>
@@ -759,4 +760,5 @@ $SELECTION$$END$
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B9F8ADB80CD2B9459386155B8F15284D/Scope/=EE8D42A0A515A44CA1D24770AB9F8173/Type/@EntryValue">InPlaceAllowingCppExpression</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B9F8ADB80CD2B9459386155B8F15284D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B9F8ADB80CD2B9459386155B8F15284D/Text/@EntryValue">"$SELECTION$$END$"</s:String>
-	<s:Boolean x:Key="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue">False</s:Boolean></wpf:ResourceDictionary>
+	<s:Boolean x:Key="/Default/RiderDebugger/RiderRestoreDecompile/RestoreDecompileSetting/@EntryValue">False</s:Boolean>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=datas/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
